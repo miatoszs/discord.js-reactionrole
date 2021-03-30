@@ -1,7 +1,7 @@
 # Reaction role
 
 ###### setup
-`npm i discord.js`
+`npm i`
 ###### Használat
 `node index.js`
 ###### Használat háttérben
