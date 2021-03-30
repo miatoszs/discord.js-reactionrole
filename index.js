@@ -10,7 +10,7 @@ const client = new Client({
 
 
 
-  client.on('messageReactionAdd', async(reaction, user) => {// role add
+  client.on('messageReactionAdd', async(reaction, user) => {// role1 add
       if(reaction.message.partial) await reaction.message.fetch();
       if(reaction.partial) await reaction.fetch();
       if(user.bot) return;
@@ -22,7 +22,7 @@ const client = new Client({
           }
       }
   })
-  client.on('messageReactionRemove', async(reaction, user) => {//role remove
+  client.on('messageReactionRemove', async(reaction, user) => {//role1 remove
       if(reaction.message.partial) await reaction.message.fetch();
       if(reaction.partial) await reaction.fetch();
       if(user.bot) return;
@@ -35,7 +35,7 @@ const client = new Client({
       }
   })
 
-  client.on('messageReactionAdd', async(reaction, user) => {// role add
+  client.on('messageReactionAdd', async(reaction, user) => {// role2 add
       if(reaction.message.partial) await reaction.message.fetch();
       if(reaction.partial) await reaction.fetch();
       if(user.bot) return;
@@ -47,7 +47,7 @@ const client = new Client({
           }
       }
   })
-  client.on('messageReactionRemove', async(reaction, user) => {//role remove
+  client.on('messageReactionRemove', async(reaction, user) => {//role2 remove
       if(reaction.message.partial) await reaction.message.fetch();
       if(reaction.partial) await reaction.fetch();
       if(user.bot) return;
