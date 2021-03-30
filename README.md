@@ -1,8 +1,8 @@
 # Reaction role
 
-###### setup
+###### Setup
 `npm i`
-###### Használat
+###### Use
 `node index.js`
-###### Használat háttérben
+###### Use in background 
 `(npm run start&)`
