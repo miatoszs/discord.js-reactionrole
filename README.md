@@ -1,4 +1,4 @@
-# PYIPMI
+# Reaction role
 
 ###### setup
 `npm i discord.js`
